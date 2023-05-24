@@ -194,7 +194,7 @@ display: none;
 @media screen and (min-width:1158px) {
     .list-address {
         display: flex;
-        margin-left: 120px;
+        justify-content: flex-end;
     }
 }
 
