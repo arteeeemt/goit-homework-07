@@ -53,18 +53,8 @@
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
-          <svg
-            width="24"
-            height="24"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
+          <svg class="icon-charm_menu-hamburger" width="32" height="22">
+            <use href="./images/icons.svg#menu-hamburger"></use>
           </svg>
         </button>
       </div>
@@ -138,13 +128,28 @@
           <h2 class="do-title">What are we doing</h2>
           <ul class="list-img">
             <li class="doing-item">
-              <img src="./images/img5.jpg" width="360" alt="iMac" />
+              <img
+                src="./images/img5.jpg"
+                srcset="./images/1comp_@1x.jpg 1x, ./images/1comp_@2x.jpg 2x"
+                width="360"
+                alt="iMac"
+              />
             </li>
             <li class="doing-item">
-              <img src="./images/img6.jpg" width="360" alt="Messenger" />
+              <img
+                src="./images/img6.jpg"
+                srcset="./images/2phone_@1x.jpg 1x, ./images/2phone_@2x.jpg 2x"
+                width="360"
+                alt="Messenger"
+              />
             </li>
             <li class="doing-item">
-              <img src="./images/img7.jpg" width="360" alt="iPhone app" />
+              <img
+                src="./images/img7.jpg"
+                srcset="./images/3sum_@1x.jpg 1x, ./images/3sum_@2x.jpg 2x"
+                width="360"
+                alt="iPhone app"
+              />
             </li>
           </ul>
         </div>
@@ -401,7 +406,7 @@
       <div class="mobile-wrapper">
         <ul class="mobile-nav">
           <li>
-            <a href="./index.html" class="mobile-links">Studio</a>
+            <a href="./index.html" class="mobile-links studio-link">Studio</a>
           </li>
           <li>
             <a class="mobile-links" href="./portfolio.html">Portfolio</a>
@@ -410,7 +415,7 @@
         </ul>
         <ul class="address-list-mobile">
           <li>
-            <a class="mobile-address-item" href="tel:+110001111111"
+            <a class="mobile-address-item phone-mobile" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
