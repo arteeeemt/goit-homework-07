@@ -273,13 +273,13 @@ margin: 0 auto;
 
 @media screen and (min-width:481px) {
     .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/Dark-bg_tab@1x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/Dark-bg_tab@1x.jpg) ;
     }
         @media (min-device-pixel-ratio:2),
         (min-resolution:192dpi),
         (min-resolution:2dppx) {
             .hero {
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/Dark-bg_mob@2x.jpg);
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/Dark-bg_mob@2x.jpg) ;
             }
         }
 }
@@ -1471,6 +1471,7 @@ color: #8E8F99;
     border: none;
     border-radius: 50%;
     outline: none;
+    
 }
 
 @media (min-width: 768px) {
@@ -1633,4 +1634,12 @@ color: #8E8F99;
 
 .mobile-address-item:active{
     color: #404BBF;
+}
+
+.js-close-menu{
+    background: #E7E9FC;
+      
+        /* NAVY BLUE */
+    
+        border: 1px solid #2E2F42;
 }
