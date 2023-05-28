@@ -262,7 +262,7 @@ background-color:var(--span-color);
 text-align: center;
 padding-top:112px;
 padding-bottom: 112px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/Dark-bg_mob@1x.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/bg_mobile@1x.jpg);
 
 max-width: 1440px;
 background-repeat: no-repeat;
@@ -275,14 +275,14 @@ margin: 0 auto;
 (min-resolution: 2dppx) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),url(./images/Dark-bg_mob@1x.jpg);
+                rgba(46, 47, 66, 0.7)),url(./images/bg_mobile@2x.jpg);
     }
 }
 
 @media only screen and (min-width: 429px) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),url(./images/Dark-bg_tab@1x.jpg);
+                rgba(46, 47, 66, 0.7)),url(./images/bg_tablet@1x.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -290,7 +290,7 @@ margin: 0 auto;
     (min-resolution: 2dppx) {
         .hero-section {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7)), url(./images/Dark-bg_tab@2x.jpg);
+                    rgba(46, 47, 66, 0.7)), url(./images/bg_tablet@2x.jpg);
         }
     }
 }
@@ -298,7 +298,7 @@ margin: 0 auto;
 @media only screen and (min-width: 769px) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),url(./images/pepople@1x.jpg);
+                rgba(46, 47, 66, 0.7)),url(./images/desktophero@1x.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -306,7 +306,7 @@ margin: 0 auto;
     (min-resolution: 2dppx) {
         .hero-section {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7)),url(./images/pepople@2x.jpg);
+                    rgba(46, 47, 66, 0.7)),url(./images/desktophero@2x.jpg);
         }
     }
 }
